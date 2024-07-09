@@ -395,7 +395,8 @@ p{
 }
 
 @media (max-width: 992px) {
-  .about .container .image {
+  .about .container .image::after,
+  .about .container .image::before {
     display: none;
   }
 }
